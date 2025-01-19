@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>33_xiaotingyun</title>
+        <meta name="description" content="画面サイズに応じて画像が横幅いっぱいのアイキャッチ※リライフホームのmax～700pxのアイキャッチの動き">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+            }
+            img{
+                background-size: cover;
+                width: 100%;
+                height: min(490px,70vw);
+                top: 0;
+                left: 0;
+                object-fit: cover;
+            }
+        </style>
+    </head>
+    <body>
+        <div><img src="33.jpg" alt="画像"></div>
+    </body>
+</html>
